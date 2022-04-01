@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-color: #f0edcc;
+  color: whitesmoke;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #02343f;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 10px;
+}
+
+.list-body {
+  background-color: ;
+}
+
+.list {
+  margin-bottom: 10px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.list:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.list.marathon {
+  margin-bottom: 0;
+}
