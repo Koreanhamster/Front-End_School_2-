@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet">
+    <title>에비츄 팬클럽 회원가입</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1 class="header">Join the fan club</h1>
+      <form action="http://127.0.0.1:5500/index.html" method="post">
+        <fieldset class="field">
+          <legend>Required field</legend>
+          <p><label for="name">Name:</label> <input id="name" type="text" /></p>
+          <p>
+            <label for="email">Email:</label> <input id="email" type="email" />
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input id="password" type="password" />
+          </p>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Optional</legend>
+          <p>
+            <label for="Birth">Date of Birth:</label>
+            <input id="Birth" type="date" />
+          </p>
+          <p>
+            <span>City:</span>
+            <select name="address">
+              <option value="Seoul">Seoul</option>
+              <option value="New-York">New-York</option>
+              <option value="France">France</option>
+              <option value="Tokyo">Tokyo</option>
+              <option value="Hawaii">Hawaii</option>
+            </select>
+            <p>
+              <p class="whoareyou">Who are You?</p>
+                <lable for="codelion">멋사2기</lable>
+                <input id="codelion" type="checkbox" value="멋사2기" name="Whoareyou">
+                <lable for="coding">우리재밌게살자</lable>
+                <input id="coding" type="checkbox" value="코딩은내운명" name="Whoareyou">
+                <lable for="gogogo">수료까지달려</lable>
+                <input id="gogogo" type="checkbox" value="수료까지달려" name="Whoareyou">
+            </p>
+          </p>
+        </fieldset>
+        <p><input class="submit" type="submit" value="Summit" /></p>
+      </form>
+    </section>
+  </body>
+</html>
