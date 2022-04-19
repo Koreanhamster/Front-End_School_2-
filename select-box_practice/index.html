@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select-box</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+
+      .wrapper {
+        width: 200px;
+        margin: 100px auto;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        /* font-weight: 100; */
+      }
+
+      .select-btn {
+        padding: 12px 0 12px 13px;
+        width: 200px;
+        text-align: left;
+        background-color: white;
+        border: 1px solid #c4c4c4;
+        border-radius: 10px;
+        background-image: url(images/Polygon\ 1.png);
+        background-position: 90% center;
+        background: url(images/Polygon\ 1.png) no-repeat 90% center;
+        cursor: pointer;
+      }
+
+      .select-btn:focus {
+        border: 1px solid rgba(155, 81, 224, 1);
+        outline: 3px solid rgba(248, 228, 255, 1);
+      }
+
+      .drop-box {
+        width: 200px;
+        border: 1px solid rgba(196, 196, 196, 1);
+        border-radius: 10px;
+        box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.15);
+        margin-top: 9px;
+        cursor: pointer;
+        padding: 15px 7px 15px 17px;
+      }
+
+      .drop-box li {
+        border-radius: 8px;
+        padding: 7px 0 7px 10px;
+        margin: 7px;
+      }
+
+      .drop-box li:hover {
+        background-color: #f8e4ff;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="wrapper">
+      <button class="select-btn">최애 프로그래밍 언어</button>
+      <ul class="drop-box">
+        <li>Python</li>
+
+        <li>Java</li>
+
+        <li>Javascript</li>
+
+        <li>C#</li>
+
+        <li>C/C++</li>
+      </ul>
+    </article>
+  </body>
+</html>
